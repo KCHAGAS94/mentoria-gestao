@@ -692,7 +692,9 @@ export default function Home() {
         <div className="container mx-auto px-4">
           <div className="text-center">
             <p className="text-lg mb-4">© 2025 KCHAGAS Consultoria – Todos os direitos reservados.</p>
-            <div className="flex justify-center space-x-6 text-sm">
+
+            {/* Linha 1 */}
+            <div className="flex justify-center space-x-6 text-sm mb-2">
               <button onClick={() => scrollToSection("inicio")} className="hover:text-blue-300 transition-colors">
                 Início
               </button>
@@ -704,7 +706,10 @@ export default function Home() {
               <button onClick={() => scrollToSection("escopo")} className="hover:text-blue-300 transition-colors">
                 Escopo
               </button>
-              <span>|</span>
+            </div>
+
+            {/* Linha 2 */}
+            <div className="flex justify-center space-x-6 text-sm">
               <button onClick={() => scrollToSection("planos")} className="hover:text-blue-300 transition-colors">
                 Planos
               </button>
@@ -716,6 +721,7 @@ export default function Home() {
           </div>
         </div>
       </footer>
+
     </div>
   )
 }
