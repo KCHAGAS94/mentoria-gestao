@@ -310,6 +310,10 @@ export default function Home() {
                     </li>
                     <li className="flex items-start">
                       <Check className="h-5 w-5 text-green-500 mt-0.5 mr-3 flex-shrink-0" />
+                      <span className="text-gray-700">1 visita inicial no primeiro sábado (4h)</span>
+                    </li>
+                    <li className="flex items-start">
+                      <Check className="h-5 w-5 text-green-500 mt-0.5 mr-3 flex-shrink-0" />
                       <span className="text-gray-700">Suporte via WhatsApp</span>
                     </li>
                     <li className="flex items-start">
@@ -363,6 +367,14 @@ export default function Home() {
                     </li>
                     <li className="flex items-start">
                       <Check className="h-5 w-5 text-green-500 mt-0.5 mr-3 flex-shrink-0" />
+                      <span className="text-gray-700">1 visita inicial no primeiro sábado (4h)</span>
+                    </li>
+                    <li className="flex items-start">
+                      <Check className="h-5 w-5 text-green-500 mt-0.5 mr-3 flex-shrink-0" />
+                      <span className="text-gray-700">1 visita antes da auditoria de validação no sábado (4h)</span>
+                    </li>
+                    <li className="flex items-start">
+                      <Check className="h-5 w-5 text-green-500 mt-0.5 mr-3 flex-shrink-0" />
                       <span className="text-gray-700">1 auditoria para validação de processos</span>
                     </li>
                     <li className="flex items-start">
@@ -407,7 +419,15 @@ export default function Home() {
                     </li>
                     <li className="flex items-start">
                       <Check className="h-5 w-5 text-green-500 mt-0.5 mr-3 flex-shrink-0" />
-                      <span className="text-gray-700">1 visita extra aos sábados (4h)</span>
+                      <span className="text-gray-700">3 visitas em sábados diferentes (4h) durante mentoria</span>
+                    </li>
+                    <li className="flex items-start">
+                      <Check className="h-5 w-5 text-green-500 mt-0.5 mr-3 flex-shrink-0" />
+                      <span className="text-gray-700">1 visita inicial no primeiro sábado (4h)</span>
+                    </li>
+                    <li className="flex items-start">
+                      <Check className="h-5 w-5 text-green-500 mt-0.5 mr-3 flex-shrink-0" />
+                      <span className="text-gray-700">1 visita antes da auditoria final no sábado (4h)</span>
                     </li>
                     <li className="flex items-start">
                       <Check className="h-5 w-5 text-green-500 mt-0.5 mr-3 flex-shrink-0" />
