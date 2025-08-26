@@ -501,7 +501,7 @@ export default function Home() {
       </section>
 
       {/* Contato Section */}
-      <section id="contato" className="py-20 bg-white">
+      {/* <section id="contato" className="py-20 bg-white">
         <div className="container mx-auto px-4">
           <div className="max-w-4xl mx-auto">
             <h2 className="text-3xl md:text-4xl font-bold text-center mb-6 text-gray-800">Entre em Contato</h2>
@@ -583,7 +583,109 @@ export default function Home() {
             </Card>
           </div>
         </div>
+      </section> */}
+      {/* Contato Section */}
+      <section id="contato" className="py-20 bg-white">
+        <div className="container mx-auto px-4">
+          <div className="max-w-4xl mx-auto">
+            <h2 className="text-3xl md:text-4xl font-bold text-center mb-6 text-gray-800">
+              Entre em Contato
+            </h2>
+            <p className="text-lg text-center text-gray-600 mb-12">
+              Entre em contato para mais informações ou para agendar uma reunião sobre esta proposta.
+            </p>
+            <Card className="shadow-lg">
+              <CardContent className="p-8">
+                <form
+                  action="https://formsubmit.co/kenedychagas881@gmail.com"
+                  method="POST"
+                  className="space-y-6"
+                >
+                  {/* Desativa captcha e envia para página customizada (opcional) */}
+                  <input type="hidden" name="_captcha" value="false" />
+                  {/* <input type="hidden" name="_next" value="https://seusite.com/obrigado" /> */}
+
+                  <div className="grid md:grid-cols-2 gap-6">
+                    <div>
+                      <label
+                        htmlFor="nome"
+                        className="block text-sm font-medium text-gray-700 mb-2"
+                      >
+                        Nome *
+                      </label>
+                      <Input
+                        id="nome"
+                        name="name" // Formsubmit usa "name"
+                        type="text"
+                        required
+                        className="w-full"
+                        placeholder="Seu nome completo"
+                      />
+                    </div>
+                    <div>
+                      <label
+                        htmlFor="email"
+                        className="block text-sm font-medium text-gray-700 mb-2"
+                      >
+                        E-mail *
+                      </label>
+                      <Input
+                        id="email"
+                        name="email"
+                        type="email"
+                        required
+                        className="w-full"
+                        placeholder="seu@email.com"
+                      />
+                    </div>
+                  </div>
+
+                  <div>
+                    <label
+                      htmlFor="telefone"
+                      className="block text-sm font-medium text-gray-700 mb-2"
+                    >
+                      Telefone
+                    </label>
+                    <Input
+                      id="telefone"
+                      name="phone"
+                      type="tel"
+                      className="w-full"
+                      placeholder="(11) 99999-9999"
+                    />
+                  </div>
+
+                  <div>
+                    <label
+                      htmlFor="mensagem"
+                      className="block text-sm font-medium text-gray-700 mb-2"
+                    >
+                      Mensagem
+                    </label>
+                    <Textarea
+                      id="mensagem"
+                      name="message"
+                      rows={4}
+                      className="w-full"
+                      placeholder="Deixe sua mensagem ou dúvidas sobre a proposta..."
+                    />
+                  </div>
+
+                  <Button
+                    type="submit"
+                    size="lg"
+                    className="w-full bg-blue-600 hover:bg-blue-700 text-white font-semibold py-3 rounded-lg shadow-lg transition-all duration-300 hover:shadow-xl"
+                  >
+                    Enviar Proposta
+                  </Button>
+                </form>
+              </CardContent>
+            </Card>
+          </div>
+        </div>
       </section>
+
 
       {/* Footer */}
       <footer className="bg-gray-800 text-white py-8">
