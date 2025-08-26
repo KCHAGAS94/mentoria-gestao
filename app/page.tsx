@@ -306,7 +306,7 @@ export default function Home() {
                   <ul className="space-y-3 mb-8">
                     <li className="flex items-start">
                       <Check className="h-5 w-5 text-green-500 mt-0.5 mr-3 flex-shrink-0" />
-                      <span className="text-gray-700">1 reunião de 2 horas por semana</span>
+                      <span className="text-gray-700">1 reunião de 1 horas por semana</span>
                     </li>
                     <li className="flex items-start">
                       <Check className="h-5 w-5 text-green-500 mt-0.5 mr-3 flex-shrink-0" />
@@ -351,7 +351,7 @@ export default function Home() {
                   <ul className="space-y-3 mb-8">
                     <li className="flex items-start">
                       <Check className="h-5 w-5 text-green-500 mt-0.5 mr-3 flex-shrink-0" />
-                      <span className="text-gray-700">2 reuniões de 2 horas por semana</span>
+                      <span className="text-gray-700">2 reuniões de 1 horas por semana</span>
                     </li>
                     <li className="flex items-start">
                       <Check className="h-5 w-5 text-green-500 mt-0.5 mr-3 flex-shrink-0" />
@@ -395,7 +395,7 @@ export default function Home() {
                   <ul className="space-y-3 mb-8">
                     <li className="flex items-start">
                       <Check className="h-5 w-5 text-green-500 mt-0.5 mr-3 flex-shrink-0" />
-                      <span className="text-gray-700">3 reuniões de 2 horas por semana</span>
+                      <span className="text-gray-700">3 reuniões de 1 horas por semana</span>
                     </li>
                     <li className="flex items-start">
                       <Check className="h-5 w-5 text-green-500 mt-0.5 mr-3 flex-shrink-0" />
